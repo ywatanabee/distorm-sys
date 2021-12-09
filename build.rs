@@ -14,7 +14,7 @@ fn main() {
         .cpp(false)
         .opt_level(2)
         .define("DISTORM_STATIC", "1")
-        .define("SUPPO  RT_64BIT_OFFSET", "1")
+        .define("SUPPORT_64BIT_OFFSET", "1")
         .compile("distorm");
 
     let bindings = bindgen::Builder::default()
