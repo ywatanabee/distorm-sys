@@ -10,7 +10,7 @@ fn main() {
         .file("src/distorm/src/distorm.c")
         .file("src/distorm/src/decoder.c")
         .include("src/distorm/include")
-        .include("src/distorm/src")
+        // .include("src/distorm/src")
         .cpp(false)
         .opt_level(2)
         .define("DISTORM_STATIC", "1")
